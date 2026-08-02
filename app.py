@@ -76,7 +76,7 @@ the K-Means Clustering algorithm.
 - Customer Cluster Prediction
 """)
 
-    st.success("Select any option from the sidebar.")
+    
 
 
 # -----------------------------
