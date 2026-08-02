@@ -57,6 +57,7 @@ Customer segmentation using K-Means Clustering effectively groups customers with
 
 ## colab link:
 https://colab.research.google.com/drive/1GRAZDidRmq0xXXyUbrcmI0xVi451FGj9?usp=sharing
+https://colab.research.google.com/drive/1b69tohHg3EFYJFqgrgZyORmds6PsnZ0d?usp=sharing
 
 ## Github link:
 https://github.com/Annamdevula1/Customer-Segmentation-Task-4.git
