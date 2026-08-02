@@ -24,7 +24,7 @@ st.markdown("---")
 # -----------------------------
 # BANNER IMAGE
 # -----------------------------
-  st.image("project banner image.jpeg", width="stretch")
+st.image("project banner image.jpeg", width="stretch")
 
 # -----------------------------
 # LOAD DATASET
