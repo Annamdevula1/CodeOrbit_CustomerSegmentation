@@ -149,29 +149,46 @@ elif page == "📈 EDA":
     st.pyplot(fig)
 
     st.subheader("Annual Income vs Spending Score")
-    fig, ax = plt.subplots(figsize=(6,4))
-    ax.scatter(
-        df["Annual Income (k$)"],
-        df["Spending Score (1-100)"]
-    )
-    ax.set_xlabel("Annual Income (k$)")
-    ax.set_ylabel("Spending Score")
-    st.pyplot(fig)
 
-    st.subheader("Box Plot - Age")
-    fig, ax = plt.subplots(figsize=(6,2))
-    ax.boxplot(df["Age"], vert=False)
-    st.pyplot(fig)
+fig, ax = plt.subplots(figsize=(6,4))
+ax.scatter(
+    df["Annual Income (k$)"],
+    df["Spending Score (1-100)"]
+)
+ax.set_xlabel("Annual Income (k$)")
+ax.set_ylabel("Spending Score")
+st.pyplot(fig)
 
-    st.subheader("Box Plot - Annual Income")
-    fig, ax = plt.subplots(figsize=(6,2))
-    ax.boxplot(df["Annual Income (k$)"], vert=False)
-    st.pyplot(fig)
 
-    st.subheader("Box Plot - Spending Score")
-    fig, ax = plt.subplots(figsize=(6,2))
-    ax.boxplot(df["Spending Score (1-100)"], vert=False)
-    st.pyplot(fig)
+st.subheader("Box Plot - Age")
+
+fig, ax = plt.subplots(figsize=(6,2))
+ax.boxplot(
+    df["Age"],
+    orientation="horizontal"
+)
+st.pyplot(fig)
+
+
+st.subheader("Box Plot - Annual Income")
+
+fig, ax = plt.subplots(figsize=(6,2))
+ax.boxplot(
+    df["Annual Income (k$)"],
+    orientation="horizontal"
+)
+st.pyplot(fig)
+
+
+st.subheader("Box Plot - Spending Score")
+
+fig, ax = plt.subplots(figsize=(6,2))
+ax.boxplot(
+    df["Spending Score (1-100)"],
+    orientation="horizontal"
+)
+st.pyplot(fig)
+   
 
 # -----------------------------
 # MODEL TRAINING
