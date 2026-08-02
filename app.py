@@ -21,10 +21,6 @@ st.set_page_config(
 # -----------------------------
 st.title("🛍️ Customer Segmentation using K-Means Clustering")
 st.markdown("---")
-# -----------------------------
-# BANNER IMAGE
-# -----------------------------
-st.image("project banner image.jpeg", width="stretch")
 
 # -----------------------------
 # LOAD DATASET
