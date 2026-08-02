@@ -193,7 +193,7 @@ st.pyplot(fig)
 # -----------------------------
 # MODEL TRAINING
 # -----------------------------
-elif page == "🤖 Model Training":
+ elif page == "🤖 Model Training":
 
     st.header("🤖 K-Means Model Training")
 
