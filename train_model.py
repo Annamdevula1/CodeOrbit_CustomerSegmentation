@@ -1,0 +1,34 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import joblib
+
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
+
+# Load Dataset
+df = pd.read_csv("Mall_Customers.csv")
+
+# Select Features
+X = df[['Age', 'Annual Income (k$)', 'Spending Score (1-100)']]
+
+# Scale the Data
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+
+# Train KMeans Model
+kmeans = KMeans(
+    n_clusters=5,
+    init='k-means++',
+    random_state=42
+)
+
+kmeans.fit(X_scaled)
+
+# Save Model and Scaler
+joblib.dump(kmeans, "kmeans_model.pkl")
+joblib.dump(scaler, "scaler.pkl")
+
+print("✅ Model trained successfully!")
+print("✅ kmeans_model.pkl saved")
+print("✅ scaler.pkl saved")
