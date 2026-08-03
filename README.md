@@ -55,9 +55,14 @@ The K-Means algorithm successfully divided customers into five clusters based on
 ## Conclusion
 Customer segmentation using K-Means Clustering effectively groups customers with similar characteristics. This analysis can support data-driven marketing decisions and improve customer relationship management.
 
+## Links
+
 ## colab link:
 https://colab.research.google.com/drive/1GRAZDidRmq0xXXyUbrcmI0xVi451FGj9?usp=sharing
 https://colab.research.google.com/drive/1b69tohHg3EFYJFqgrgZyORmds6PsnZ0d?usp=sharing
 
 ## Github link:
 https://github.com/Annamdevula1/Customer-Segmentation-Task-4.git
+
+**Live Demo**:
+ https://customer-segmentation-task-4-ntapo3nuayj5jahy2x4afs.streamlit.app/
