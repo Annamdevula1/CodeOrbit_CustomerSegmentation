@@ -66,4 +66,4 @@ https://github.com/Annamdevula1/CodeOrbit_CustomerSegmentation.git
 
 **Live Demo**:
 
- https://customer-segmentation-task-4-ntapo3nuayj5jahy2x4afs.streamlit.app/
+ https://codeorbitcustomersegmentation-tfo85vuwpapp4kcnslphwu5.streamlit.app/
