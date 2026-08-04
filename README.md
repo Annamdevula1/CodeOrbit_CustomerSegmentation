@@ -1,4 +1,4 @@
-               # Customer-Segmentation-Task-4
+               # CodeOrbit_CustomerSegmentation
 # Project Title:                               
 # Customer Segmentation using K-Means Clustering
 
